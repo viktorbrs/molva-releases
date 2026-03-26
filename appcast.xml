@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Molva Updates</title>
+    <language>en</language>
+    <item>
+      <title>Version 1.0.1</title>
+      <pubDate>Thu, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Molva v1.0.1</h2>
+        <ul>
+          <li>Fixed paste going to wrong app when Settings window was open</li>
+          <li>Transcript now stays in clipboard after insertion</li>
+          <li>More reliable clipboard sync before Cmd+V</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva/releases/download/v1.0.1/Molva-1.0.1.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="KIxT5UsBg4ss+9r0WA4ylYmWftKTRJMPXmnfQVAUB2D2ECiSeMLyKtc6Eg5GbSHUQHAXFbRT5iPsyBPnRms0AA=="
+        length="5505118"
+      />
+    </item>
+    <item>
+      <title>Version 1.0.0</title>
+      <pubDate>Wed, 26 Mar 2026 00:00:00 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Molva v1.0.0</h2>
+        <ul>
+          <li>Renamed to Molva</li>
+          <li>Fixed microphone permission request on first launch</li>
+          <li>Dock icon toggle in General settings</li>
+          <li>App menu with Settings and About</li>
+          <li>New app icon</li>
+          <li>Save/Revert button in AI Processing settings</li>
+          <li>Dynamic model list from API (Groq, ElevenLabs, OpenAI-compatible)</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva/releases/download/v1.0.0/Molva-1.0.0.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="IhVXr3QiIB0IWtebJIJxzX852J5m3DB6g2y5vBpn3YsQkzQLzAN/M34ThV07+n20rSjqPmyihwoxfHYpQy5kCA=="
+        length="5490894"
+      />
+    </item>
+    <item>
+      <title>Version 0.2.0</title>
+      <pubDate>Sun, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>v0.2.0</h2>
+        <ul>
+          <li>Groq Whisper speech-to-text provider</li>
+          <li>Redesigned Dictation settings with collapsible provider cards</li>
+          <li>Custom app icon and menu bar icon</li>
+          <li>Fixed microphone crash on start</li>
+          <li>Fixed About settings crash</li>
+          <li>Renamed "Proxy URL" to "Custom URL"</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva/releases/download/v0.2.0/Dictator-0.2.0.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="Qh5zUrxRbupL7pCJ53+PlrI6bCvqoWxJsDnGCKvCXpLp9CPN1jOePhypxYvu5YilQqhIgMnGCrfiMRWRbOSwBw=="
+        length="4355476"
+      />
+    </item>
+    <item>
+      <title>Version 0.1.0</title>
+      <pubDate>Sun, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Initial Release</h2>
+        <ul>
+          <li>ElevenLabs speech-to-text with WebSocket and REST transport</li>
+          <li>Notch and floating panel display modes</li>
+          <li>AI post-processing with Groq and OpenAI-compatible LLMs</li>
+          <li>Transcription history with search and re-processing</li>
+          <li>Configurable hotkey and proxy support</li>
+          <li>Auto-updates via Sparkle</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva/releases/download/v0.1.0/Dictator-0.1.0.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="KHiOVx0GMunCjLsSRX6MbMM55It6vb9PhlY2xt0QhLQi8g5cCx6Kds4H+SlRKirg44qrXqyy/4DNmmg8Eyy5BQ=="
+        length="1387117"
+      />
+    </item>
+  </channel>
+</rss>
