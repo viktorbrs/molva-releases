@@ -12,9 +12,17 @@
       <description><![CDATA[
         <h2>Molva v1.0.2</h2>
         <ul>
-          <li>Permissions section in Settings — check and grant mic &amp; accessibility access</li>
-          <li>Check Permissions button now shows status near the rows</li>
-          <li>Fixed AI post-processing following instructions from transcribed speech (prompt injection defence)</li>
+          <li>Permissions onboarding screen on first launch</li>
+          <li>Launch at login setting</li>
+          <li>Permissions section in Settings</li>
+          <li>Check for Updates button now activates correctly</li>
+          <li>Fixed mic permission re-prompt on every recording</li>
+          <li>Fixed AI post-processing following instructions from transcribed speech</li>
+          <li>AI Processing provider section is now collapsible</li>
+          <li>Dictation provider cards collapsed by default; Configure button on all cards</li>
+          <li>Model picker loads immediately in background</li>
+          <li>History duration shown as 1m 30s / 2h instead of raw seconds</li>
+          <li>Menu bar: replaced transcript preview with Copy last transcript button</li>
         </ul>
       ]]></description>
       <enclosure
