@@ -4,6 +4,27 @@
     <title>Molva Updates</title>
     <language>en</language>
     <item>
+      <title>Version 1.0.2</title>
+      <pubDate>Thu, 27 Mar 2026 00:00:00 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Molva v1.0.2</h2>
+        <ul>
+          <li>Permissions section in Settings — check and grant mic &amp; accessibility access</li>
+          <li>Check Permissions button now shows status near the rows</li>
+          <li>Fixed AI post-processing following instructions from transcribed speech (prompt injection defence)</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva/releases/download/v1.0.2/Molva-1.0.2.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="abbyIBgr5u5No23rRimFL3SrjYcb0ntY4dFSIG11YmY5ZEsfJbuw6sLTi2KB4lqHmM3Kx7tO5TnIr8AwuGLXAw=="
+        length="5604190"
+      />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <pubDate>Thu, 27 Mar 2026 00:00:00 +0000</pubDate>
       <sparkle:version>5</sparkle:version>
