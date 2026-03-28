@@ -48,7 +48,7 @@
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/viktorbrs/molva/releases/download/v1.0.2/Molva-1.0.2.zip"
+        url="https://github.com/viktorbrs/molva-releases/releases/download/v1.0.2/Molva-1.0.2.zip"
         type="application/octet-stream"
         sparkle:edSignature="abbyIBgr5u5No23rRimFL3SrjYcb0ntY4dFSIG11YmY5ZEsfJbuw6sLTi2KB4lqHmM3Kx7tO5TnIr8AwuGLXAw=="
         length="5604190"
@@ -69,7 +69,7 @@
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/viktorbrs/molva/releases/download/v1.0.1/Molva-1.0.1.zip"
+        url="https://github.com/viktorbrs/molva-releases/releases/download/v1.0.1/Molva-1.0.1.zip"
         type="application/octet-stream"
         sparkle:edSignature="KIxT5UsBg4ss+9r0WA4ylYmWftKTRJMPXmnfQVAUB2D2ECiSeMLyKtc6Eg5GbSHUQHAXFbRT5iPsyBPnRms0AA=="
         length="5505118"
@@ -94,7 +94,7 @@
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/viktorbrs/molva/releases/download/v1.0.0/Molva-1.0.0.zip"
+        url="https://github.com/viktorbrs/molva-releases/releases/download/v1.0.0/Molva-1.0.0.zip"
         type="application/octet-stream"
         sparkle:edSignature="IhVXr3QiIB0IWtebJIJxzX852J5m3DB6g2y5vBpn3YsQkzQLzAN/M34ThV07+n20rSjqPmyihwoxfHYpQy5kCA=="
         length="5490894"
@@ -118,7 +118,7 @@
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/viktorbrs/molva/releases/download/v0.2.0/Dictator-0.2.0.zip"
+        url="https://github.com/viktorbrs/molva-releases/releases/download/v0.2.0/Dictator-0.2.0.zip"
         type="application/octet-stream"
         sparkle:edSignature="Qh5zUrxRbupL7pCJ53+PlrI6bCvqoWxJsDnGCKvCXpLp9CPN1jOePhypxYvu5YilQqhIgMnGCrfiMRWRbOSwBw=="
         length="4355476"
@@ -142,7 +142,7 @@
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/viktorbrs/molva/releases/download/v0.1.0/Dictator-0.1.0.zip"
+        url="https://github.com/viktorbrs/molva-releases/releases/download/v0.1.0/Dictator-0.1.0.zip"
         type="application/octet-stream"
         sparkle:edSignature="KHiOVx0GMunCjLsSRX6MbMM55It6vb9PhlY2xt0QhLQi8g5cCx6Kds4H+SlRKirg44qrXqyy/4DNmmg8Eyy5BQ=="
         length="1387117"
