@@ -4,6 +4,28 @@
     <title>Molva Updates</title>
     <language>en</language>
     <item>
+      <title>Version 1.0.3</title>
+      <pubDate>Fri, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Molva v1.0.3</h2>
+        <ul>
+          <li>Fixed recording intermittency when connecting/disconnecting audio devices</li>
+          <li>Fixed Swift Concurrency warnings in audio engine</li>
+          <li>Audio ducking with customizable level (Settings → General)</li>
+          <li>Improved audio device switch handling with debounce and cooldown</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva/releases/download/v1.0.3/Molva-1.0.3.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="mm2egURp9ylM8nW0NV983pmmG5AG6Hsohh/qG1S7Ec7HkQob6D3Ex/yb/IJtF7n/A0LoVzqGrA6wCiM4Yj2BAg=="
+        length="5018477"
+      />
+    </item>
+    <item>
       <title>Version 1.0.2</title>
       <pubDate>Thu, 27 Mar 2026 00:00:00 +0000</pubDate>
       <sparkle:version>6</sparkle:version>
