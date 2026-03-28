@@ -4,6 +4,29 @@
     <title>Molva Updates</title>
     <language>en</language>
     <item>
+      <title>Version 1.0.4</title>
+      <pubDate>Fri, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Molva v1.0.4</h2>
+        <ul>
+          <li>Permissions no longer reset after updates</li>
+          <li>First dictation on headphones now works reliably</li>
+          <li>Black frames removed from update dialog</li>
+          <li>Onboarding window appears in front on first launch</li>
+          <li>Always-on audio device monitoring in background</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva-releases/releases/download/v1.0.4/Molva-1.0.4.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="6RdGx/QcH8rXcezomDwNEy4+q0L+3iOODJOQkwvmReI5e9ClEU8kPSvDTbhVQ1M+eNmaHEZVxMmw9o1xQxeeDg=="
+        length="5149284"
+      />
+    </item>
+    <item>
       <title>Version 1.0.3</title>
       <pubDate>Fri, 28 Mar 2026 00:00:00 +0000</pubDate>
       <sparkle:version>7</sparkle:version>
