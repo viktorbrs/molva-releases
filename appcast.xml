@@ -5,28 +5,27 @@
     <language>en</language>
     <item>
       <title>Version 1.1.0</title>
-      <pubDate>Sat, 29 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Mar 2026 00:00:00 +0000</pubDate>
       <sparkle:version>9</sparkle:version>
       <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>Molva v1.1.0 — Settings Refactor & Bug Fixes</h2>
+        <h2>Molva v1.1.0 — STT Cloud Models & AI Post-Processing</h2>
         <ul>
-          <li><strong>Cloud Models:</strong> Choose between pre-configured ElevenLabs and Groq (with hardcoded backend API keys)</li>
-          <li><strong>Custom System Prompt:</strong> Toggle to override the built-in system prompt for transcription post-processing</li>
-          <li><strong>Simplified AI Processing:</strong> Groq hardcoded as default LLM provider; Advanced section for custom configuration</li>
-          <li>Fixed critical bug: Custom system prompt toggle now actually affects AI post-processing (was silently ignored)</li>
-          <li>Fixed state divergence issues in Settings UI when switching cloud models or custom prompt</li>
-          <li>Fixed data corruption when configuring OpenAI-compatible STT endpoints</li>
-          <li>Removed all "unsaved changes" dialogs — Settings now use instant-save pattern</li>
-          <li>OpenAI-compatible provider now fully activated (no longer "Coming Soon")</li>
+          <li><strong>Cloud STT Models:</strong> ElevenLabs Scribe v2 and Groq Whisper now available as managed models (no API key setup required)</li>
+          <li><strong>STT Transport Modes:</strong> Realtime WebSocket and REST batch processing with automatic selection</li>
+          <li><strong>AI Post-Processing:</strong> Optional Groq LLM post-processing for transcriptions with custom system prompt support</li>
+          <li><strong>Custom LLM Provider:</strong> Support for any OpenAI-compatible LLM API with configurable base URL and model</li>
+          <li>Improved Settings UI with collapsible provider cards and test connection buttons</li>
+          <li>Better state management in dictation flow</li>
+          <li>Enhanced error messages and connection feedback</li>
         </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/viktorbrs/molva-releases/releases/download/v1.1.0/Molva-1.1.0.zip"
+        url="https://github.com/viktorbrs/molva/releases/download/v1.1.0/Molva-1.1.0.zip"
         type="application/octet-stream"
-        sparkle:edSignature="OMLMX5k6u9QBiL2dO8mGikjB7job0zNGcOJ1ekqr9rfEZIVGKwkWUN4WIIMKkFoSKYYZl1e62Mijt0TIwlfYDQ=="
-        length="4380513"
+        sparkle:edSignature="LubYDNCMABRbeCzErH1JzkrfaJkmcI8dUD/8GBNofaSbpWChuW3fXNRrJEqYSHalEDH8YYMvEOayjUhzYDmiCQ=="
+        length="5107739"
       />
     </item>
     <item>
