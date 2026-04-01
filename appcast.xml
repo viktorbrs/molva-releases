@@ -4,6 +4,31 @@
     <title>Molva Updates</title>
     <language>en</language>
     <item>
+      <title>Version 1.1.2</title>
+      <pubDate>Tue, 01 Apr 2026 00:00:00 +0000</pubDate>
+      <sparkle:version>112</sparkle:version>
+      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Molva v1.1.2 — Performance & Stability</h2>
+        <ul>
+          <li><strong>Fixed:</strong> WebSocket disconnecting after first audio chunk — ElevenLabs realtime STT now works reliably</li>
+          <li><strong>Faster:</strong> Groq and ElevenLabs proxies moved to Europe (europe-west1) — ~100–150ms less latency</li>
+          <li><strong>Fixed:</strong> ElevenLabs API key truncation in Cloud Run causing auth failures</li>
+          <li><strong>Fixed:</strong> WebSocket binary/text frame type preserved during proxy forwarding</li>
+          <li>RTL text normalization for cleaner transcripts</li>
+          <li>Grace period optimization: 2.5s delay replaced with smart 0.5s cancellable wait</li>
+          <li>Proxy routing for both Groq LLM and ElevenLabs STT</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva-releases/releases/download/v1.1.2/Molva-1.1.2.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="iA9txyicWpsXKXB0PVvWNPLi9F5A3uNoe49QLi4GNbvCVETxOh9zGC+2/IrsAbPRwnEoq+LHMjN57Z7rbIZoAg=="
+        length="5604127"
+      />
+    </item>
+    <item>
       <title>Version 1.1.1</title>
       <pubDate>Mon, 31 Mar 2026 00:00:00 +0000</pubDate>
       <sparkle:version>10</sparkle:version>
