@@ -4,6 +4,30 @@
     <title>Molva Updates</title>
     <language>en</language>
     <item>
+      <title>Version 1.1.3</title>
+      <pubDate>Thu, 03 Apr 2026 10:00:00 +0000</pubDate>
+      <sparkle:version>113</sparkle:version>
+      <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Molva v1.1.3</h2>
+        <ul>
+          <li><strong>Target App Switching:</strong> клик по иконке приложения в нотче/панели переключает target. Работает корректно даже когда Settings открыт</li>
+          <li><strong>Автоочистка истории:</strong> настраиваемый срок хранения (1 неделя / 1 месяц / 3 месяца / 1 год)</li>
+          <li><strong>Исправлено:</strong> вставка текста в правильное приложение когда Settings открыт</li>
+          <li><strong>Исправлено:</strong> стабильность аудио-захвата при работе Zoom</li>
+          <li>Hardware device pinning для обхода виртуальных аудио-устройств</li>
+          <li>Детекция тишины и диагностика аудио</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva-releases/releases/download/v1.1.3/Molva-1.1.3.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="4/0wUnj8fjcAIePKrEAb71MjSO0JtP2sicdu93s62l4nHjPT5MkAZzzPFMkCki3BE2/5UGhXFSGNXKip/eC4DA=="
+        length="5623448"
+      />
+    </item>
+    <item>
       <title>Version 1.1.2</title>
       <pubDate>Tue, 01 Apr 2026 00:00:00 +0000</pubDate>
       <sparkle:version>112</sparkle:version>
