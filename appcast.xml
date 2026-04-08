@@ -4,6 +4,32 @@
     <title>Molva Updates</title>
     <language>en</language>
     <item>
+      <title>Version 1.2.0</title>
+      <pubDate>Tue, 08 Apr 2026 21:00:00 +0000</pubDate>
+      <sparkle:version>120</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Molva v1.2.0 — AirPods & Bluetooth</h2>
+        <ul>
+          <li><strong>AirPods fix:</strong> полностью устранён бесконечный "синий" при подключении (AUHAL вместо AVAudioEngine)</li>
+          <li><strong>Первое нажатие</strong> с AirPods работает сразу, без ожидания</li>
+          <li><strong>Смена устройства</strong> во время записи (AirPods ↔ другой микрофон) — seamless</li>
+          <li><strong>AudioDucking:</strong> снижение громкости теперь работает через DisplayPort/HDMI (мониторы, proxy-устройства)</li>
+          <li><strong>History в трее:</strong> быстрый переход в историю прямо из меню-бара</li>
+          <li>Улучшена защита системного промпта от prompt injection (⌁-разделители)</li>
+          <li>ElevenLabs: увеличен grace period для надёжного получения транскрипта</li>
+          <li>Bypass виртуальных аудиоустройств Zoom</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva-releases/releases/download/v1.2.0/Molva-1.2.0.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="+O0Kcb9/5pKbuGPcextnCLHdwc3+nAHtCNO0BYjZc23gUOzT3Gx/CoFiC2JHLLhhgYiMSk67Ahiuksoc+KejDQ=="
+        length="5649063"
+      />
+    </item>
+    <item>
       <title>Version 1.1.3</title>
       <pubDate>Thu, 03 Apr 2026 10:00:00 +0000</pubDate>
       <sparkle:version>113</sparkle:version>
