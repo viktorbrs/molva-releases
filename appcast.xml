@@ -4,6 +4,35 @@
     <title>Molva Updates</title>
     <language>en</language>
     <item>
+      <title>Version 1.2.1</title>
+      <pubDate>Thu, 23 Apr 2026 20:52:47 +0000</pubDate>
+      <sparkle:version>121</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Molva v1.2.1 — Reliability & Polish</h2>
+        <ul>
+          <li><strong>Notch animation:</strong> исправлено пропадание анимации после долгого бездействия (wake-from-sleep) и мигание при быстрых повторных диктовках</li>
+          <li><strong>Быстрый старт диктовки:</strong> убран синий <code>.connecting</code>-флеш для встроенного/USB/HDMI микрофона — переход в запись мгновенный (гейт ожидания аудио теперь только для Bluetooth)</li>
+          <li><strong>История:</strong> страница с 200+ записями открывается моментально (LazyVStack)</li>
+          <li><strong>SwiftData history:</strong> асинхронная загрузка, автоматическая ретенция, миграция из <code>history.jsonl</code></li>
+          <li><strong>CoreAudio ducking:</strong> non-blocking, без TCC; AppleScript-фолбэк для HDMI/DisplayPort</li>
+          <li><strong>ElevenLabs WS:</strong> VAD 0.5s (было 1.5s), keep-alive через commits — экономим TLS handshake между фразами</li>
+          <li><strong>LLM pipeline v3:</strong> template prompts с <code>{{TRANSCRIPT}}</code>, anti-injection user-сообщение, CoT-стрипинг для reasoning-моделей, 2 попытки + raw-фолбэк</li>
+          <li><strong>Groq picker:</strong> три модели с категориями — Llama 3.3 70B (Recommended, новый дефолт), Llama 4 Scout (Balanced), Llama 3.1 8B (Fastest)</li>
+          <li><strong>Keychain:</strong> <code>WhenUnlockedThisDeviceOnly</code> — API-ключи больше не уходят в iCloud Keychain</li>
+          <li><strong>System prompt v3:</strong> 7 правил, 5 few-shot примеров, расширенное правило транслитерации и IT-омонимов</li>
+          <li>Миграция для legacy model-ID в UserDefaults</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://github.com/viktorbrs/molva-releases/releases/download/v1.2.1/Molva-1.2.1.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="gcAT3kLmV/Qc4r10HQ5G1UaeDTg/5nqnr78IYGKZO6hHjYiS03vUgOZC7i7JyhIrtrsQxaSFJ9cpu4ma2SrlAw=="
+        length="5732394"
+      />
+    </item>
+    <item>
       <title>Version 1.2.0</title>
       <pubDate>Tue, 08 Apr 2026 21:00:00 +0000</pubDate>
       <sparkle:version>120</sparkle:version>
